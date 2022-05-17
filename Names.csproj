@@ -54,7 +54,9 @@
     <Compile Include="HistogramData.cs" />
     <Compile Include="HistogramSample.cs" />
     <Compile Include="NameData.cs" />
-    <Compile Include="HistogramTask.cs" />
+    <Compile Include="..\..\..\source\repos\HistogramTask.cs\HistogramTask.cs">
+      <Link>HistogramTask.cs</Link>
+    </Compile>
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
